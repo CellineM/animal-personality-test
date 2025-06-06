@@ -1,0 +1,52 @@
+.home-box {
+  padding: 8vw;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff0f6;
+}
+
+h1, h2 {
+  font-size: 6vw;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 4vw;
+  margin-bottom: 30px;
+}
+
+.startButton {
+  padding: 3vw 6vw;
+  font-size: 4vw;
+  cursor: pointer;
+  background-color: #ffd6e8;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect only for larger screens */
+@media (hover: hover) {
+  .startButton:hover {
+    background-color: #ffb3d1;
+  }
+}
+
+/* Adjust font and padding for desktop/laptop */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .startButton {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
